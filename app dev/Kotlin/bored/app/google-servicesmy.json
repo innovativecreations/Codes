@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "45015763061",
+    "firebase_url": "https://tryandroid-13145-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "tryandroid-13145",
+    "storage_bucket": "tryandroid-13145.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45015763061:android:e07a17aeb6db28cd36903c",
+        "android_client_info": {
+          "package_name": "com.example.bored"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45015763061-ki7hvl7fkm9d74uo2h0g2h07kdfqiqdn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkReGd4zqjzmbKQfbaNJBc2iO0c_KYo5g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45015763061-ki7hvl7fkm9d74uo2h0g2h07kdfqiqdn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

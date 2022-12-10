@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".Quizactivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="15dp">
+        <TextView
+            android:id="@+id/questionText"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Which country this flag belongs to?"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            />
+        <ImageView
+            android:id="@+id/imageImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/ic_flag_of_india"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity="center_vertical">
+
+            <ProgressBar
+                android:id="@+id/progressBar1"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="10"
+                android:minHeight="50dp"
+                android:progress="0"
+                android:indeterminate="false"/>
+            <TextView
+                android:id="@+id/progressText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0/10"
+                android:textSize="14sp"
+                android:textColor="#7A8089"
+                android:padding="15dp"
+                android:gravity="center"/>
+
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/option1"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="India"
+            android:gravity="center"
+            android:background="@drawable/option_bg_notselected"
+            android:padding="15dp"
+            android:textSize="18sp"
+            />
+        <!--            android:onClick=""-->
+        <TextView
+            android:id="@+id/option2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/option_bg_notselected"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="India"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/option3"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="India"
+            android:gravity="center"
+            android:background="@drawable/option_bg_notselected"
+            android:padding="15dp"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:id="@+id/option4"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="India"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/option_bg_notselected"
+            android:padding="15dp"
+            android:textSize="18sp"
+            />
+        <Button
+            android:layout_margin="10dp"
+            android:padding="10sp"
+            android:id="@+id/submit_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:background="@color/purple_500"/>
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

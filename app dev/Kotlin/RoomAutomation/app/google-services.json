@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "528349888944",
+    "firebase_url": "https://diy-room-a67f7-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "diy-room-a67f7",
+    "storage_bucket": "diy-room-a67f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528349888944:android:52a2b6d50a63b31b63d675",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "528349888944-ba52ev0l007272vih0sqs48iqo4nmq1i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDotDLdPf3GbMmmQ6Wz6VcraQvw2YwJ6hQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "528349888944-ba52ev0l007272vih0sqs48iqo4nmq1i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528349888944:android:f42545381b97754263d675",
+        "android_client_info": {
+          "package_name": "com.example.roomautomation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "528349888944-ba52ev0l007272vih0sqs48iqo4nmq1i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDotDLdPf3GbMmmQ6Wz6VcraQvw2YwJ6hQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "528349888944-ba52ev0l007272vih0sqs48iqo4nmq1i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
